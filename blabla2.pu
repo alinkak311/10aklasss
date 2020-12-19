@@ -1,0 +1,13 @@
+from random import randint
+a=[]
+a= [randint(0,100) for x in range (5)]
+sum1=0
+sum2=0
+for x in a:
+    if x<50:
+        sum1+=x
+        sred1=sum1//2
+    else:
+        sum2+=x
+        sred2=sum2//2
+print (sred1,sred2)
