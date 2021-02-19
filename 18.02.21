@@ -1,1 +1,17 @@
+64a
+slo=input()
+def slo (a):
+   s1= []
+   s1= a.split()
+s= input()
+print (slo(s))
 
+64b
+def rash (a,b):
+    s1=[]
+    s1=a.split(".")
+    s1.pop()
+    return s1
+s = input ()
+w= input()
+print (rash (s,w))
