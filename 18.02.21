@@ -7,11 +7,11 @@ s= input()
 print (slo(s))
 
 64b
-def rash (a,b):
-    s1=[]
-    s1=a.split(".")
-    s1.pop()
-    return s1
-s = input ()
-w= input()
-print (rash (s,w))
+name = input()
+rash = input()
+
+if name.count (".")>0:
+    name1 = name [:name.rfind(".")] + "." + rash
+else:
+        name1 = name + "." + rash
+print (name1)
