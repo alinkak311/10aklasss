@@ -1,0 +1,66 @@
+66a
+
+print("vvedite 5 strok:")
+def uou(n):
+    gg=[]
+    while len(n)<5:
+        lok=input()
+        if lok=='':
+            break
+        gg.append(lok)
+    return (gg)
+def x(a):
+    s=[]
+    for i in a:
+        i=i[2:]
+        s.append(i)
+    return(s)
+m=[]
+m=uou(m)
+m=x(m)
+c=sorted(m)
+print("spisok v alfavite :")
+for i in c:
+    print(i,end=' ')
+    
+66b
+print("vvedite slova:")
+def uou(n):
+    gg=[]
+    while len(n)<20:
+        tyt=input()
+        if tyt =='':
+            break
+        gg.append(tyt)
+    return (gg)
+def x(a):
+    s=[]
+    for i in a:
+        i=i[2:]
+        s.append(i)
+    return(s)
+m=[]
+m= uou(m)
+m=x(m)
+c=sorted(m)
+print("spisok v alfavite :")
+for i in c:
+    print(i,end=' ')
+    
+66c
+
+print("Введите ФИО:")
+def uou(n):
+    gg=[]
+    while len(n)<20:
+        tyt=input()
+        if tyt=='':
+            break
+        gg.append(tyt)
+    return (gg)
+m=[]
+m=uou(m)
+c=sorted(m)
+print("alfavit poradok :")
+for i in c:
+    print(i)
