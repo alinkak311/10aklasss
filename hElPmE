@@ -1,0 +1,10 @@
+66a
+st = []
+while True:
+    e = input()
+    if e != "":
+        st.append(e)
+    else:
+        break
+st.sort()
+print(",".join(st))
