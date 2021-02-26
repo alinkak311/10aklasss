@@ -8,3 +8,34 @@ while True:
         break
 st.sort()
 print(",".join(st))
+
+66b
+sl = []
+while True:
+    e = input()
+    if e != "":
+        sl.append(e)
+    else:
+        break
+sl.sort()
+print(",".join(sl))
+
+66c
+zh = []
+
+print ("vvedite FIO")
+
+while True:
+    e = input()
+    if e == "":
+        break
+    otch = e.split()
+    print(otch)
+    
+    if  e != "":
+        otch.append(e)
+    else:
+        break
+otch.sort()
+
+print(",".join(otch))
